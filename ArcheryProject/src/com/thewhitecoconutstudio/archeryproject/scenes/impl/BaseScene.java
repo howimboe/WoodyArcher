@@ -19,6 +19,9 @@ public abstract class BaseScene extends Scene {
     
     protected BaseSceneListener listener;
     protected SceneResources resources;
+
+	//Large storage 2
+	 protected SceneResources resources2;
     
     //---------------------------------------------
     // CONSTRUCTOR
@@ -78,12 +81,17 @@ public abstract class BaseScene extends Scene {
     
     public void loadSceneResources(){
     	resources.loadResources();
-    	
+    	if(resources2 != null){
+    		resources2.loadResources();
+    	}
     	this.listener.onSceneLoaded();
     }
     
     public void unloadSceneResources(){
     	resources.unloadResource();
+    	if(resources2 != null){
+    		resources2.unloadResource();
+    	}
     	this.listener.onSceneUnloaded();
     }
 
