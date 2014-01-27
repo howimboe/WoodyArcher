@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level width="1000" height="780">    
+   
+   	<!-- SOL-->
+   	<entity x="0" y="580" type="ground"/>
+   	
+   	<!-- PANNEAU 1 -->
+   	<!--entity x="426" y="320" type="edge"/>
+   	<entity x="496" y="320" type="edge"/>
+   	<entity x="525" y="275" type="board"/>
+   	<entity x="550" y="290" type="poteau"/-->
+   	
+   	<!-- PLAYER -->
+    <!--entity x="140" y="150" type="player"/-->
+    <!--entity x="0" y="0" type="ball"/-->
+
+    <!-- TARGET -->
+    <entity x="140" y="100" type="target"/>
+    
+        <!-- CROSSHAIR -->
+    <entity x="125" y="500" type="crosshair"/>
+    
+    <!-- arrow-->
+     <!--entity x="240" y="850" type="ball"/-->
+    
+</level>
